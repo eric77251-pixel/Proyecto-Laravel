@@ -39,3 +39,8 @@ Dificultades
 1-Necesidad de instalar Node.js: Durante la implementación del sistema de autenticación, se presentó un error al ejecutar los comandos relacionados con npm, debido a que no se tenía instalado Node.js
 2-Error por Inactividad de MySQL: Se presentó un problema al intentar ejecutar las migraciones, ya que el servicio de MySQL se encontraba deshabilitado.
 3- Error al ejecutar npm install:Durante la instalación de dependencias del frontend, el comando npm install presentó fallos, lo que impedía la correcta ejecución de los estilos y scripts del sistema.
+
+Nombre: Eric De Leom
+Correo: eric.deleon3@utp.ac.pa 
+Curso: 1GS132 
+Instructor del Laboratorio: Irina Fong.
