@@ -1,0 +1,41 @@
+Laboratorio N 2
+Proyecto Laravel 
+Objetivos:
+-Comprender la importancia de la documentación en proyectos de desarrollo de software. 
+-Consolidar el aprendizaje de la arquitectura Modelo-Vista-Controlador (MVC) en Laravel. 
+-Evidenciar el proceso de configuración e implementación del módulo de login en Laravel. 
+-Identificar las dificultades encontradas durante el laboratorio y las soluciones aplicadas. 
+Requisitos Previos:
+▪ PHP versión 8.0 o superior. 
+▪ Composer última versión estable. 
+▪ Laravel Installer o crear proyecto con laravel new /composer create-project. 
+▪ Paquete de servidor web local WAMP
+▪ Servidor web:  Apache o Nginx 
+▪ Base de datos MySQL/MariaDB funcionando. 
+▪ Editor de código; Visual Studio Code 
+▪ NPN: 
+▪ Sistema Operativo: Windows 11
+
+Explicaciones - Glosario
+-Controladores (Controllers): Se encargan de gestionar la lógica de la aplicación. Reciben las solicitudes del usuario, procesan la información y devuelven una respuesta (generalmente una vista o datos).
+-Modelos (Models):Representan la estructura de la base de datos. Permiten interactuar con las tablas, realizar consultas, insertar, actualizar y eliminar datos.
+-Vistas (Views):Son las encargadas de mostrar la interfaz al usuario.
+-Rutas (Routes):Definen las URLs de la aplicación y determinan qué controlador o función se ejecuta cuando el usuario accede a una dirección específica.
+
+Comandos Utilizados
+-composer global require laravel
+-laravel new
+-composer run dev
+-php artisan config:clear
+-php artisan config:cache
+-php artisan migrate
+-npm install
+-composer requiere laravel/ui
+-php artisan ui bootstrap
+-php artisan ui bootstrap
+-npm run dev
+
+Dificultades
+1-Necesidad de instalar Node.js: Durante la implementación del sistema de autenticación, se presentó un error al ejecutar los comandos relacionados con npm, debido a que no se tenía instalado Node.js
+2-Error por Inactividad de MySQL: Se presentó un problema al intentar ejecutar las migraciones, ya que el servicio de MySQL se encontraba deshabilitado.
+3- Error al ejecutar npm install:Durante la instalación de dependencias del frontend, el comando npm install presentó fallos, lo que impedía la correcta ejecución de los estilos y scripts del sistema.
